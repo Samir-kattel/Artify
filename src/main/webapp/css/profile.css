@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    width: 50%;
+    padding: 3rem;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #221822, #a8a4a8);
+}
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.data-img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.data span{
+    font-family: "Poppins", sans-serif;
+}
+.edit-profile{
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 1rem;
+    background-color: #d5d4d4;
+    border-radius: 20%;
+}
